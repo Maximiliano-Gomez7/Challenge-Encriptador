@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="/imagenes/Logo.jpg" class="Logo" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea  cols="30" rows="10" placeholder="Ingrese el texto" class="textArea"></textarea>
+            <div>
+                <img src="imagenes/Frame 1.jpg" alt="alerta" class="alerta">
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncripar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesEncripar()">Desencriptar</button>
+               
+            </div>
+    
+    
+        </section>
+        <section>
+            <textarea  cols="20" rows="10" class= "mensaje" ></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+    
+        </section>
+    </main>
+    <script src="/logica.js"></script>
+</body>
+</html>
